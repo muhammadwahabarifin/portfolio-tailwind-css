@@ -2,7 +2,6 @@
   "name": "portofolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
     "build": "tailwindcss -i ./input.css -o ./css/main.css",
     "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
@@ -11,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@vercel/edge": "^1.1.1",
     "eslint": "^8.54.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-tailwindcss": "^3.13.0",
