@@ -11,12 +11,14 @@
   "license": "ISC",
   "devDependencies": {
     "@vercel/edge": "^1.1.1",
+    "autoprefixer": "^10.4.16",
     "eslint": "^8.54.0",
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-tailwindcss": "^3.13.0",
+    "postcss": "^8.4.32",
     "prettier": "^3.1.0",
     "prettier-plugin-tailwindcss": "^0.5.7",
-    "tailwindcss": "^3.3.5"
+    "tailwindcss": "^3.3.6"
   },
   "dependencies": {
     "@fontsource-variable/urbanist": "^5.0.18"
